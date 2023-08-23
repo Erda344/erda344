@@ -1,9 +1,21 @@
+.selector {
+    @include rfs(4rem, border-radius);
+  }
+  !important can also just be added to whatever value you want:
+  
+  
+  .selector {
+    @include padding(2.5rem !important);
+  }
+  
 .main {
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
+    background: rgb(90, 64, 114);
 }
+
 
 
 .category {
